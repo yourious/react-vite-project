@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:yourious/react-vite-project.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "react_vite_course_taking"]
+	vscode-merge-base = origin/master
+	remote = origin
+	merge = refs/heads/react_vite_course_taking
